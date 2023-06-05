@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0767D02983653400A824C2 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0767CF2983653400A824C2 /* AlertItem.swift */; };
+		5E6FFB3928E2B6C000434B11 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6FFB3828E2B6C000434B11 /* SettingsView.swift */; };
+		5E9EFAC228B2197D0065C98B /* CHSwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAC128B2197D0065C98B /* CHSwiftUI2App.swift */; };
+		5E9EFAC428B2197D0065C98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAC328B2197D0065C98B /* ContentView.swift */; };
+		5E9EFAC628B219810065C98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EFAC528B219810065C98B /* Assets.xcassets */; };
+		5E9EFAC928B219810065C98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EFAC828B219810065C98B /* Preview Assets.xcassets */; };
+		5E9EFAD328B219810065C98B /* CHSwiftUI2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAD228B219810065C98B /* CHSwiftUI2Tests.swift */; };
+		5E9EFADD28B219810065C98B /* CHSwiftUI2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFADC28B219810065C98B /* CHSwiftUI2UITests.swift */; };
+		5E9EFADF28B219810065C98B /* CHSwiftUI2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFADE28B219810065C98B /* CHSwiftUI2UITestsLaunchTests.swift */; };
+		5E9EFAEC28B45B800065C98B /* InOnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAEB28B45B800065C98B /* InOnButton.swift */; };
+		5E9EFAEE28B462F60065C98B /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAED28B462F60065C98B /* ScoreViewModel.swift */; };
+		5E9EFAF028B5E1C90065C98B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAEF28B5E1C90065C98B /* GameModel.swift */; };
+		5E9EFAF228B5E2280065C98B /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAF128B5E2280065C98B /* PlayerModel.swift */; };
+		5E9EFAF428B5E6CF0065C98B /* PlayerInfoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAF328B5E6CF0065C98B /* PlayerInfoEditView.swift */; };
+		5E9EFAF628CEE21E0065C98B /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EFAF528CEE21E0065C98B /* TextToSpeech.swift */; };
+		5EDC863928E5E43E0016B339 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC863828E5E43E0016B339 /* WinnerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E9EFACF28B219810065C98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9EFAB628B2197D0065C98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9EFABD28B2197D0065C98B;
+			remoteInfo = CHSwiftUI2;
+		};
+		5E9EFAD928B219810065C98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9EFAB628B2197D0065C98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9EFABD28B2197D0065C98B;
+			remoteInfo = CHSwiftUI2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E0767CF2983653400A824C2 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		5E6FFB3828E2B6C000434B11 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5E9EFABE28B2197D0065C98B /* Cornhole Point Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cornhole Point Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9EFAC128B2197D0065C98B /* CHSwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHSwiftUI2App.swift; sourceTree = "<group>"; };
+		5E9EFAC328B2197D0065C98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E9EFAC528B219810065C98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E9EFAC828B219810065C98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E9EFACE28B219810065C98B /* Cornhole Point KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cornhole Point KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9EFAD228B219810065C98B /* CHSwiftUI2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHSwiftUI2Tests.swift; sourceTree = "<group>"; };
+		5E9EFAD828B219810065C98B /* Cornhole Point KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cornhole Point KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9EFADC28B219810065C98B /* CHSwiftUI2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHSwiftUI2UITests.swift; sourceTree = "<group>"; };
+		5E9EFADE28B219810065C98B /* CHSwiftUI2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHSwiftUI2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E9EFAEB28B45B800065C98B /* InOnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOnButton.swift; sourceTree = "<group>"; };
+		5E9EFAED28B462F60065C98B /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		5E9EFAEF28B5E1C90065C98B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		5E9EFAF128B5E2280065C98B /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		5E9EFAF328B5E6CF0065C98B /* PlayerInfoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoEditView.swift; sourceTree = "<group>"; };
+		5E9EFAF528CEE21E0065C98B /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+		5EDC863828E5E43E0016B339 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9EFABB28B2197D0065C98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9EFACB28B219810065C98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9EFAD528B219810065C98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E90526C2968BFED0054A403 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAF528CEE21E0065C98B /* TextToSpeech.swift */,
+				5E0767CF2983653400A824C2 /* AlertItem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5E90526D2968C0380054A403 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAEF28B5E1C90065C98B /* GameModel.swift */,
+				5E9EFAF128B5E2280065C98B /* PlayerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E90526E296EA99D0054A403 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E905270296EAA6D0054A403 /* CustomViews */,
+				5E90526F296EA9F20054A403 /* ViewModels */,
+				5E9EFAC328B2197D0065C98B /* ContentView.swift */,
+				5E6FFB3828E2B6C000434B11 /* SettingsView.swift */,
+				5E9EFAF328B5E6CF0065C98B /* PlayerInfoEditView.swift */,
+				5EDC863828E5E43E0016B339 /* WinnerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E90526F296EA9F20054A403 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAED28B462F60065C98B /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E905270296EAA6D0054A403 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAEB28B45B800065C98B /* InOnButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		5E9EFAB528B2197D0065C98B = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAC028B2197D0065C98B /* CHSwiftUI2 */,
+				5E9EFAD128B219810065C98B /* CHSwiftUI2Tests */,
+				5E9EFADB28B219810065C98B /* CHSwiftUI2UITests */,
+				5E9EFABF28B2197D0065C98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E9EFABF28B2197D0065C98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFABE28B2197D0065C98B /* Cornhole Point Keeper.app */,
+				5E9EFACE28B219810065C98B /* Cornhole Point KeeperTests.xctest */,
+				5E9EFAD828B219810065C98B /* Cornhole Point KeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E9EFAC028B2197D0065C98B /* CHSwiftUI2 */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAC128B2197D0065C98B /* CHSwiftUI2App.swift */,
+				5E90526E296EA99D0054A403 /* Views */,
+				5E90526D2968C0380054A403 /* Models */,
+				5E90526C2968BFED0054A403 /* Utilities */,
+				5E9EFAC528B219810065C98B /* Assets.xcassets */,
+				5E9EFAC728B219810065C98B /* Preview Content */,
+			);
+			path = CHSwiftUI2;
+			sourceTree = "<group>";
+		};
+		5E9EFAC728B219810065C98B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAC828B219810065C98B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E9EFAD128B219810065C98B /* CHSwiftUI2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFAD228B219810065C98B /* CHSwiftUI2Tests.swift */,
+			);
+			path = CHSwiftUI2Tests;
+			sourceTree = "<group>";
+		};
+		5E9EFADB28B219810065C98B /* CHSwiftUI2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9EFADC28B219810065C98B /* CHSwiftUI2UITests.swift */,
+				5E9EFADE28B219810065C98B /* CHSwiftUI2UITestsLaunchTests.swift */,
+			);
+			path = CHSwiftUI2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E9EFABD28B2197D0065C98B /* Cornhole Point Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9EFAE228B219810065C98B /* Build configuration list for PBXNativeTarget "Cornhole Point Keeper" */;
+			buildPhases = (
+				5E9EFABA28B2197D0065C98B /* Sources */,
+				5E9EFABB28B2197D0065C98B /* Frameworks */,
+				5E9EFABC28B2197D0065C98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cornhole Point Keeper";
+			productName = CHSwiftUI2;
+			productReference = 5E9EFABE28B2197D0065C98B /* Cornhole Point Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E9EFACD28B219810065C98B /* Cornhole Point KeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9EFAE528B219810065C98B /* Build configuration list for PBXNativeTarget "Cornhole Point KeeperTests" */;
+			buildPhases = (
+				5E9EFACA28B219810065C98B /* Sources */,
+				5E9EFACB28B219810065C98B /* Frameworks */,
+				5E9EFACC28B219810065C98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9EFAD028B219810065C98B /* PBXTargetDependency */,
+			);
+			name = "Cornhole Point KeeperTests";
+			productName = CHSwiftUI2Tests;
+			productReference = 5E9EFACE28B219810065C98B /* Cornhole Point KeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E9EFAD728B219810065C98B /* Cornhole Point KeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9EFAE828B219810065C98B /* Build configuration list for PBXNativeTarget "Cornhole Point KeeperUITests" */;
+			buildPhases = (
+				5E9EFAD428B219810065C98B /* Sources */,
+				5E9EFAD528B219810065C98B /* Frameworks */,
+				5E9EFAD628B219810065C98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9EFADA28B219810065C98B /* PBXTargetDependency */,
+			);
+			name = "Cornhole Point KeeperUITests";
+			productName = CHSwiftUI2UITests;
+			productReference = 5E9EFAD828B219810065C98B /* Cornhole Point KeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E9EFAB628B2197D0065C98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5E9EFABD28B2197D0065C98B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5E9EFACD28B219810065C98B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5E9EFABD28B2197D0065C98B;
+					};
+					5E9EFAD728B219810065C98B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5E9EFABD28B2197D0065C98B;
+					};
+				};
+			};
+			buildConfigurationList = 5E9EFAB928B2197D0065C98B /* Build configuration list for PBXProject "Cornhole Point Keeper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E9EFAB528B2197D0065C98B;
+			productRefGroup = 5E9EFABF28B2197D0065C98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E9EFABD28B2197D0065C98B /* Cornhole Point Keeper */,
+				5E9EFACD28B219810065C98B /* Cornhole Point KeeperTests */,
+				5E9EFAD728B219810065C98B /* Cornhole Point KeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E9EFABC28B2197D0065C98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9EFAC928B219810065C98B /* Preview Assets.xcassets in Resources */,
+				5E9EFAC628B219810065C98B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9EFACC28B219810065C98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9EFAD628B219810065C98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9EFABA28B2197D0065C98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0767D02983653400A824C2 /* AlertItem.swift in Sources */,
+				5E9EFAF228B5E2280065C98B /* PlayerModel.swift in Sources */,
+				5EDC863928E5E43E0016B339 /* WinnerView.swift in Sources */,
+				5E9EFAF028B5E1C90065C98B /* GameModel.swift in Sources */,
+				5E9EFAC428B2197D0065C98B /* ContentView.swift in Sources */,
+				5E6FFB3928E2B6C000434B11 /* SettingsView.swift in Sources */,
+				5E9EFAC228B2197D0065C98B /* CHSwiftUI2App.swift in Sources */,
+				5E9EFAEC28B45B800065C98B /* InOnButton.swift in Sources */,
+				5E9EFAF628CEE21E0065C98B /* TextToSpeech.swift in Sources */,
+				5E9EFAF428B5E6CF0065C98B /* PlayerInfoEditView.swift in Sources */,
+				5E9EFAEE28B462F60065C98B /* ScoreViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9EFACA28B219810065C98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9EFAD328B219810065C98B /* CHSwiftUI2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9EFAD428B219810065C98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9EFADF28B219810065C98B /* CHSwiftUI2UITestsLaunchTests.swift in Sources */,
+				5E9EFADD28B219810065C98B /* CHSwiftUI2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E9EFAD028B219810065C98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9EFABD28B2197D0065C98B /* Cornhole Point Keeper */;
+			targetProxy = 5E9EFACF28B219810065C98B /* PBXContainerItemProxy */;
+		};
+		5E9EFADA28B219810065C98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9EFABD28B2197D0065C98B /* Cornhole Point Keeper */;
+			targetProxy = 5E9EFAD928B219810065C98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E9EFAE028B219810065C98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E9EFAE128B219810065C98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9EFAE328B219810065C98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"CHSwiftUI2/Preview Content\"";
+				DEVELOPMENT_TEAM = TQKFQGL7G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CH Point Keeper";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScottB.CHSwiftUI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E9EFAE428B219810065C98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"CHSwiftUI2/Preview Content\"";
+				DEVELOPMENT_TEAM = TQKFQGL7G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CH Point Keeper";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScottB.CHSwiftUI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E9EFAE628B219810065C98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQKFQGL7G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScottB.CHSwiftUI2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornhole Point Keeper.app/Cornhole Point Keeper";
+			};
+			name = Debug;
+		};
+		5E9EFAE728B219810065C98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQKFQGL7G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScottB.CHSwiftUI2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornhole Point Keeper.app/Cornhole Point Keeper";
+			};
+			name = Release;
+		};
+		5E9EFAE928B219810065C98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQKFQGL7G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScottB.CHSwiftUI2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHSwiftUI2;
+			};
+			name = Debug;
+		};
+		5E9EFAEA28B219810065C98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQKFQGL7G6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ScottB.CHSwiftUI2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHSwiftUI2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9EFAB928B2197D0065C98B /* Build configuration list for PBXProject "Cornhole Point Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9EFAE028B219810065C98B /* Debug */,
+				5E9EFAE128B219810065C98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9EFAE228B219810065C98B /* Build configuration list for PBXNativeTarget "Cornhole Point Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9EFAE328B219810065C98B /* Debug */,
+				5E9EFAE428B219810065C98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9EFAE528B219810065C98B /* Build configuration list for PBXNativeTarget "Cornhole Point KeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9EFAE628B219810065C98B /* Debug */,
+				5E9EFAE728B219810065C98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9EFAE828B219810065C98B /* Build configuration list for PBXNativeTarget "Cornhole Point KeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9EFAE928B219810065C98B /* Debug */,
+				5E9EFAEA28B219810065C98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E9EFAB628B2197D0065C98B /* Project object */;
+}
